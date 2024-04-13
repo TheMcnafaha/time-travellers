@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Future Scouts",
+    "unitType": "Ranged",
+    "uniqueTo": "Time Travellers",
+    "replaces": "Scout",
+    "movement": 4,
+    "strength": 20,
+    "rangedStrength": 35,
+    "range": 3,
+    "cost": 400,
+    "promotions": ["Logistics", "Camouflage"],
+    "attackSound": "cannon"
+  }
+{
+    "name": "Iron Giant",
+    "unitType": "Armored",
+    "uniqueTo": "Time Travellers",
+    "replaces": "Giant Death Robot",
+    "movement": 4,
+    "strength": 20,
+    "rangedStrength": 35,
+    "range": 3,
+    "cost": 900,
+    "promotions": ["Logistics", "Camouflage"],
+"interceptRange": 5,
+"requiredResource": "Uranium",
+"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","Can move after attacking","[100]% chance to intercept air attacks",],
+    "attackSound": "tankshot"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Time Travellers",
+    "leaderName": "Mr Future",
+    "adjective": ["Travelians", "Harbingers"],
+    "startBias": ["Mountain", "River"],
+    "preferredVictoryType": "Diplomatic",
+    "startIntroPart1": "Ops...wrong button",
+    "declaringWar": "It was destined",
+    "attacked": "Ready to meet your fate?",
+    "defeated": "So that's why",
+    "introduction": "Wait till you get wifi",
+    "neutralHello": "Hello",
+    "hateHello": "So it is you who we must kill",
+    "tradeRequest": "Helps  us go back to our time",
+    "cities": [
+      "New Capital",
+      "Post Capital",
+      "Capital Reloaded",
+      "2 Future 2 Foward",
+      "Ex Post Capital",
+      "Capital 17"
+    ],
+    "outerColor": [0, 0, 100],
+    "innerColor": [0, 255, 0],
+    "uniqueName": "idk",
+    "uniques": [
+      "[Great Scientist] is earned [150]% faster",
+      "Gain a free [Iron Giant]"
+    ]
+  }
+]
