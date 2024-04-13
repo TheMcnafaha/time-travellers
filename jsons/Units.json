@@ -9,10 +9,15 @@
     "rangedStrength": 35,
     "range": 3,
     "cost": 400,
-    "promotions": ["Logistics", "Camouflage"],
+    "promotions": [
+      "Logistics",
+      "Camouflage",
+      "Recon UAV",
+      "Ignore terrain cost"
+    ],
     "attackSound": "cannon"
-  }
-{
+  },
+  {
     "name": "Iron Giant",
     "unitType": "Armored",
     "uniqueTo": "Time Travellers",
@@ -22,10 +27,40 @@
     "rangedStrength": 35,
     "range": 3,
     "cost": 900,
-    "promotions": ["Logistics", "Camouflage"],
-"interceptRange": 5,
-"requiredResource": "Uranium",
-"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","Can move after attacking","[100]% chance to intercept air attacks",],
+    "promotions": [
+      "Logistics",
+      "Recon UAV",
+      "Great Generals II",
+      "Continuous AA Protection",
+      "Early Warning System"
+    ],
+    "interceptRange": 5,
+    "requiredResource": "Uranium",
+    "uniques": [
+      "May Paradrop up to [5] tiles from inside friendly territory",
+      "Can move after attacking",
+      "[100]% chance to intercept air attacks"
+    ],
     "attackSound": "tankshot"
+  },
+  {
+    "name": "Rods from God",
+    "unitType": "Missile",
+    "movement": 1,
+    "replaces": "Guided Missile",
+    "strength": 310,
+    "rangedStrength": 310,
+    "range": 8,
+    "cost": 2000,
+    "requiredTech": "Advanced Ballistics",
+    "uniques": [
+      "[-100]% maintenance costs",
+      "Ballistic",
+      "Destroys tile improvements when attacking",
+      "Blast radius [3]",
+      "Consumes [10] [Iron]",
+      "Ballistic"
+    ],
+    "attackSound": "missile"
   }
 ]
