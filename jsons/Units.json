@@ -1,19 +1,17 @@
 [
   {
     "name": "Future Scouts",
-    "unitType": "Ranged",
     "uniqueTo": "Time Travellers",
+    "unitType": "Scout",
     "replaces": "Scout",
     "movement": 4,
-    "strength": 20,
-    "rangedStrength": 35,
-    "range": 3,
+    "strength": 40,
     "cost": 400,
     "promotions": [
       "Logistics",
       "Camouflage",
-      "Recon UAV",
-      "Ignore terrain cost"
+      "Ignore terrain cost",
+      "Recon UAV"
     ],
     "attackSound": "cannon"
   },
@@ -22,26 +20,27 @@
     "unitType": "Armored",
     "uniqueTo": "Time Travellers",
     "replaces": "Giant Death Robot",
-    "movement": 4,
-    "strength": 20,
-    "rangedStrength": 35,
-    "range": 3,
-    "cost": 900,
+    "movement": 5,
+    "strength": 150,
+    "cost": 1000,
+    "requiredTech": "Nuclear Fusion",
     "promotions": [
-      "Logistics",
-      "Recon UAV",
-      "Great Generals II",
-      "Continuous AA Protection",
-      "Early Warning System"
-    ],
-    "interceptRange": 5,
-    "requiredResource": "Uranium",
-    "uniques": [
+      "Early Warning System",
+      "[100]% chance to intercept air attacks",
+      "[+150]% Strength <vs [Bomber] units>",
+      "[+150]% Strength <vs [Helicopter] units>",
       "May Paradrop up to [5] tiles from inside friendly territory",
-      "Can move after attacking",
-      "[100]% chance to intercept air attacks"
+      "Ignore terrain cost"
     ],
-    "attackSound": "tankshot"
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "Never appears as a Barbarian unit",
+      "Consumes [1] [Uranium]",
+      "Consumes [1] [Aluminum]",
+      "Consumes [1] [Oil]"
+    ],
+    "attackSound": "gdrAttack"
   },
   {
     "name": "Rods from God",
@@ -51,10 +50,9 @@
     "strength": 310,
     "rangedStrength": 310,
     "range": 8,
-    "cost": 2000,
+    "cost": 1500,
     "requiredTech": "Advanced Ballistics",
     "uniques": [
-      "[-100]% maintenance costs",
       "Ballistic",
       "Destroys tile improvements when attacking",
       "Blast radius [3]",
