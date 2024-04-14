@@ -25,10 +25,6 @@
     "cost": 1000,
     "requiredTech": "Nuclear Fusion",
     "promotions": [
-      "Early Warning System",
-      "[100]% chance to intercept air attacks",
-      "[+150]% Strength <vs [Bomber] units>",
-      "[+150]% Strength <vs [Helicopter] units>",
       "May Paradrop up to [5] tiles from inside friendly territory",
       "Ignore terrain cost"
     ],
