@@ -24,17 +24,19 @@
     "strength": 150,
     "cost": 1000,
     "requiredTech": "Nuclear Fusion",
-    "promotions": [
-      "May Paradrop up to [5] tiles from inside friendly territory",
-      "Ignore terrain cost"
-    ],
+    "promotions": ["Early Warning System"],
     "uniques": [
       "Can move after attacking",
       "No defensive terrain bonus",
       "Never appears as a Barbarian unit",
       "Consumes [1] [Uranium]",
       "Consumes [1] [Aluminum]",
-      "Consumes [1] [Oil]"
+      "Consumes [1] [Oil]",
+      "[100]% chance to intercept air attacks",
+      "[+150]% Strength <vs [Bomber] units>",
+      "[+150]% Strength <vs [Helicopter] units>",
+      "May Paradrop up to [5] tiles from inside friendly territory",
+      "Ignore terrain cost"
     ],
     "attackSound": "gdrAttack"
   },
