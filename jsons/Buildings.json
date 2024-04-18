@@ -1,0 +1,24 @@
+{
+		"name": "Timeshop",
+		"maintenance": 10,
+		"production": 12,
+                "uniqueTo":"Time Travellers",
+		"specialistSlots": {"Engineer": 4},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 20},
+		"requiredTech": "Metal Casting",
+                "replaces": "Workshop",
+	},
+
+
+
+	{
+		"name": "Futureworks",
+		"cost": 200,
+		"production": 20,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city","[+200]% Production when constructing [All] wonders [in this city]"],
+		"requiredTech": "Machinery",
+                "replaces":"Ironworks"
+	},
