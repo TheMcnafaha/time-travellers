@@ -1,3 +1,6 @@
+[
+
+
 {
 		"name": "Timeshop",
 		"maintenance": 10,
@@ -8,7 +11,7 @@
 		"percentStatBonus": {"production": 20},
 		"requiredTech": "Metal Casting",
                 "replaces": "Workshop",
-	},
+	}
 
 
 
@@ -22,3 +25,4 @@
 		"requiredTech": "Machinery",
                 "replaces":"Ironworks"
 	},
+]
