@@ -1,28 +1,42 @@
 [
 
 
-{
+	{
 		"name": "Timeshop",
 		"maintenance": 10,
 		"production": 12,
-                "uniqueTo":"Time Travellers",
+		"uniqueTo":"Time Travellers",
 		"specialistSlots": {"Engineer": 4},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 20},
 		"requiredTech": "Metal Casting",
-                "replaces": "Workshop",
-	}
+		"replaces": "Workshop",
+		}
 
 
+		{
+		"name": "Wikipedia Archieves",
+		"cost": 300,
+		"science": 150,
+		"culture": 50,
+		"isNationalWonder": true,
+		"percentStatBonus": { "science": 500 },
+		"uniques": [
+			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Philosophy",
+		"replaces": "National College",
+	},
 
 	{
 		"name": "Futureworks",
-		"cost": 200,
-		"production": 20,
-		"culture": 1,
+		"cost": 300,
+		"production": 40,
+		"culture": 10,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city","[+200]% Production when constructing [All] wonders [in this city]"],
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city","[+600]% Production when constructing [All] wonders [in this city]"],
 		"requiredTech": "Machinery",
-                "replaces":"Ironworks"
+		"replaces":"Ironworks"
 	},
 ]
