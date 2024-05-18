@@ -44,7 +44,7 @@
     "name": "Rods from God",
     "unitType": "Missile",
     "movement": 1,
-    "replaces": "Guided Missile",
+    "replaces": "Nuclear Missile",
     "strength": 310,
     "rangedStrength": 310,
     "range": 8,
